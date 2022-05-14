@@ -1,0 +1,47 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": "16.x"
+  },
+  "dependencies": {
+    "@ant-design/icons": "latest",
+    "@craco/craco": "^6.4.3",
+    "@reduxjs/toolkit": "^1.7.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "antd": "^4.17.3",
+    "axios": "^0.24.0",
+    "bottleneck": "^2.19.5",
+    "craco-less": "^1.20.0",
+    "history": "5",
+    "lodash": "4.17.21",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "6.2.1",
+    "react-scripts": "4.0.3",
+    "react-spotify-web-playback": "^0.9.1",
+    "react-tinder-card": "^1.4.5",
+    "react-use-googlelogin": "^0.12.5",
+    "spotify-web-api-node": "^5.0.2"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.16.5"
+  }
+}
